@@ -5,7 +5,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option("max_colwidth", None)
 
 
-url = "https://zillow-com1.p.rapidapi.com/propertyExtendedSearch"
+url = #Rapid API url here#
 
 querystring = {"location":"long beach, ca",
 			   "home_type":"Houses",
@@ -13,8 +13,8 @@ querystring = {"location":"long beach, ca",
 			   "maxPrice":"1000000"}
 
 headers = {
-	"X-RapidAPI-Host": "zillow-com1.p.rapidapi.com",
-	"X-RapidAPI-Key": "79db984d6dmsh011465d37de5fe5p1634d0jsn67bcc53a877c"
+	#rapid api header here#
+	#rapid api key here#
 }
 
 detail_cols = ['address',
